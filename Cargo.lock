@@ -503,7 +503,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "plotters-sin-wave"
+name = "plotters-deverlopers-guide-examples"
 version = "0.1.0"
 dependencies = [
  "plotters",

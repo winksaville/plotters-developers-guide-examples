@@ -1,17 +1,16 @@
-# Plot sin
+# Plotters Devloper's Guide Examples
 
-Example [Getting Started](https://plotters-rs.github.io/book/intro/getting_started.html)
-from [Plotter Developer's Guide](https://plotters-rs.github.io/book/intro/introduction.html)
-that plots a sine wave.
+Examples from [Plotter Developer's Guide](https://plotters-rs.github.io/book/intro/introduction.html).
+The sturcture of the code in src/main.rs is based on the examples in the book
+with the module names tracking the section names in the book.
 
 ## Build
 
 ```bash
 cargo build
-```:w
+```
 
-
-## Run
+## Build and Run
 
 ```bash
 cargo run
@@ -19,10 +18,12 @@ cargo run
 
 ## Display
 
-Display with a browser or image viewer.
+If you are using and IDE like vscode that supports displaying
+`.png` files then simply click on the image files to see them!
+You can display with a browser or image viewer, for example:
 
 ```bash
-google-chrome images/0.1.png
+google-chrome images/*.png
 ```
 
 ## License
