@@ -506,6 +506,7 @@ dependencies = [
 name = "plotters-deverlopers-guide-examples"
 version = "0.1.0"
 dependencies = [
+ "chrono",
  "plotters",
 ]
 
