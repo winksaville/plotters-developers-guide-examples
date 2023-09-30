@@ -2,8 +2,7 @@ use plotters::prelude::*;
 
 // https://plotters-rs.github.io/book/basic/chart_context.html#create-a-chart-context-from-a-drwaing-area
 pub fn chart_builder() {
-    let drawing_area =
-        BitMapBackend::new("images/2.0.png", (1024, 768)).into_drawing_area();
+    let drawing_area = BitMapBackend::new("images/2.0.png", (1024, 768)).into_drawing_area();
 
     let _chart = ChartBuilder::on(&drawing_area)
         .build_cartesian_2d(0..100, 0..100)
